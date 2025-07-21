@@ -1,11 +1,15 @@
 import "./App.css";
 import ZoomMtgEmbedded from "@zoom/meetingsdk/embedded";
+import React from "react";
+import ReactDOM from "react-dom";
+
+console.log("React version", React.version);
+console.log("React DOM version", ReactDOM.version);
 
 function App() {
   const client = ZoomMtgEmbedded.createClient();
-
-  const authEndpoint = ""; // http://localhost:4000
-  const meetingNumber = "";
+  const authEndpoint = "http://localhost:4000"; // http://localhost:4000
+  const meetingNumber = "93835898699";
   const passWord = "";
   const role = 0;
   const userName = "React";
