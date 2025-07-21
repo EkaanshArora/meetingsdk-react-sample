@@ -1,0 +1,8 @@
+# Force single version of React to avoid version conflicts
+shamefully-hoist=true
+
+# Auto install peer dependencies
+auto-install-peers=true
+
+# Use legacy peer deps behavior similar to npm
+strict-peer-dependencies=false 
